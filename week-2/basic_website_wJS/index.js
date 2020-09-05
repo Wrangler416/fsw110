@@ -66,7 +66,7 @@ document.getElementById("list").appendChild(listItems3);
 console.log(listItems3); 
 console.log(unorderedList);
 
-var foot = document.createElement("p");
+var foot = document.createElement("footer");
 document.body.appendChild(foot); 
 foot.textContent = "Caribbean Sailing Tours, 2020";
 foot.setAttribute("id", "footerText");
@@ -75,5 +75,6 @@ document.getElementById("footerText").style.bottom = "0";
 document.getElementById("footerText").style.fontSize = "30px";
 document.getElementById("footerText").style.color = "darkblue";
 document.getElementById("footerText").style.margin = "40px"; 
+document.getElementById("footerText").style.textAlign = "center"; 
 
 console.log(foot);

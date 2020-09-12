@@ -8,9 +8,6 @@ document.getElementById("hello").style.color = "blue";
 
 
 
-
-
-
 const names = ["steve", "larry", "joe", "shirley", "steph", "nate", "rick", "emily"];
 
 var list = document.getElementById("nameList"); 

@@ -1,0 +1,25 @@
+.container {
+    margin: 30px;
+    padding: 10px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr, 1fr; 
+}
+body {
+    background: linear-gradient(to right, teal, #000099); 
+}
+h2, h1 {
+    text-align: center;
+    color: white;
+}
+.operations {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white; 
+    padding: 20px;
+    margin: 20px; 
+}
+
+

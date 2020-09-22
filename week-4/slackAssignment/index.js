@@ -1,9 +1,5 @@
 
 
-function myFunction() {
-    console.log("Hello World");
-}
+var msg = require('./user.js');
 
-module.exports = myFunction;
-
-
+msg('Hello World');

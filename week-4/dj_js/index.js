@@ -41,6 +41,6 @@ addEventListener("keydown", function(event) {
       square.style.background = "orange";
 });
 
-document.body.addEventListener("wheel", function() {
+window.addEventListener("wheel", function() {
     square.style.backgroundColor = "orange"; 
 }); 

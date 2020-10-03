@@ -16,9 +16,7 @@ function myalert() {
         checkedInput.push(form.diet[i].value)
     }
 };
-
-
-    alert(" First Name:" + "" + first + " Last Name:" + "" + last + " Age:" + "" + age + " Gender:" + "" + gender + " City:" + "" + cityselect + " Dietary Restrictions:" + "" + checkedInput)
+    alert(" First Name:" + "" +  first + " Last Name:" + "" + last + " Age:" + "" + age + " Gender:" + "" + gender + " City:" + "" + cityselect + " Dietary Restrictions:" + "" + checkedInput)
 }
 
 

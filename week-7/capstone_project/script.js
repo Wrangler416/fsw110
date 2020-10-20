@@ -6,7 +6,7 @@ form.addEventListener("submit", (event) => {event.preventDefault()});
 let x = document.getElementsByTagName("LI");
 
     var i; 
-    for(i = 0; i <x.length; i++) {
+    for(i = 0; i < x.length; i++) {
         let span = document.createElement("SPAN");
         let deleteBtn = document.createElement("BUTTON");
         document.getElementsByTagName("BUTTON")[1].setAttribute("id", "deleted")
@@ -14,7 +14,6 @@ let x = document.getElementsByTagName("LI");
         span.appendChild(deleteBtn);
         x[i].appendChild(span);
 }
-
 
 let deleted = document.getElementsByClassName("deleted"); 
 
@@ -26,13 +25,12 @@ let deleted = document.getElementsByClassName("deleted");
         }
 }
 
-
 function newTask() {
 
         let li = document.createElement("LI");
         let category = document.getElementById("category").value; 
         let task = document.getElementById("task").value; 
-        let input = (category + task); 
+        let input = (category + " " + " " + "/" + " " + task); 
     
         let text = document.createTextNode(input); 
         li.appendChild(text);
